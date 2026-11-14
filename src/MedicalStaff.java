@@ -10,6 +10,7 @@ public abstract class MedicalStaff {
     }
 
     public void displayDetails(){
+        System.out.println("================================");
         System.out.println("ID: " + employeeId);
         System.out.println("Department: " + department);
         System.out.println("Working hours: " + workingHours);
