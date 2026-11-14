@@ -9,6 +9,16 @@ public abstract class MedicalStaff {
         this.workingHours = workingHours;
     }
 
+    public String getEmployeeId() {
+        return employeeId;
+    }
+    public String getDepartment() {
+        return department;
+    }
+    public int getWorkingHours() {
+        return workingHours;
+    }
+
     public void displayDetails(){
         System.out.println("ID: " + employeeId);
         System.out.println("Department: " + department);
