@@ -1,7 +1,7 @@
 public abstract class MedicalStaff {
-    String employeeId;
-    String department;
-    int workingHours;
+    private String employeeId;
+    private String department;
+    private int workingHours;
 
     public MedicalStaff(String employeeId, String department, int workingHours) {
         this.employeeId = employeeId;
