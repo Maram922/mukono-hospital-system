@@ -10,6 +10,9 @@ public class MukonoHospital {
                 new LabTechnician("L001", "Laboratory", 42),
         };
 
+        displayStaffCount(staff);
+        System.out.println();
+
         for (MedicalStaff s : staff){
             s.displayDetails();
             s.performPatientCare();
