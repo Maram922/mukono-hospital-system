@@ -14,6 +14,7 @@ public abstract class MedicalStaff {
         System.out.println("ID: " + employeeId);
         System.out.println("Department: " + department);
         System.out.println("Working hours: " + workingHours);
+        System.out.println("================================");
     }
 
     public abstract void performPatientCare();
