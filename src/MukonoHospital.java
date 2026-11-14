@@ -1,4 +1,7 @@
 public class MukonoHospital {
+    public static void displayStaffCount(MedicalStaff[] staff){
+        System.out.println("Total Staff: " + staff.length);
+    }
     public static void main(String[] args) {
         MedicalStaff[] staff = {
                 new Doctor("D001", "Surgery", 40),
